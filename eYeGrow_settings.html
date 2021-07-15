@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" charset="utf-8">
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta name="robots" content="noindex" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="menu_cssf.css">
+<link rel="stylesheet" href="footer_cssf.css">
+<link rel="stylesheet" href="settings_cssf.css">
+<link rel="stylesheet" href="tutorial_cssf.css">
+<title>eYeGrowデモページ settings</title>
+</head>
+
+<body style="margin:0px;">
+
+	<div class="background-top" id="background-top">
+		<img class="eYeGrow" src="img/eYeGrow.png">
+		<div class="right_menu">
+			<a href="eYeGrow_settings.html">Name: eYeGrow Demo</a>
+			<a href="eYeGrow_status.html" class="switch_link">Status: OK</a>
+			<a href="#" class="switch_link">Login</a>
+		</div>
+		<div class="left_menu">
+			<a href="eYeGrow_main.html" class="switch_link">Home</a>
+			<a href="eYeGrow_status.html" class="switch_link">Status</a>
+			<a href="eYeGrow_settings.html" class="switch_link">Settings</a>
+		</div>
+	</div>
+
+	<img class="hanger" src="img/hanger.png" onclick="Menu_Open();">
+	<div class="blind_menu" id="blind_menu" onclick="Menu_Close();"></div>
+	<div class="side_menu" id="side_menu">
+		<div class="side_top">
+			<div class="text_menu">Menu</div>
+		</div>
+		<a href="eYeGrow_main.html" class="side_link">Home</a>
+		<a href="eYeGrow_status.html" class="side_link">Status</a>
+		<a href="eYeGrow_settings.html" class="side_link">Settings</a>
+	</div>
+
+
+	<div class="windows">
+		<a class="tytle">Sensor Settings</a>
+
+		<div class="name" id="name">
+			<input class="ef" id="input_name" value="eYeGrow Demo">
+			<div class="under_line"></div>
+			<label class="label1">Sensor Name</label>
+			<label class="label2">Give your sesnor a name</label>
+		</div>
+
+		<div class="select1" id="select1">
+			<a href="#" class="ef" id="select_units">Metric</a>
+			<div class="under_line"></div>
+			<label class="label1">Units</label>
+			<label class="label2">Choose from either metric or imperial units</label>
+			<img class="select" src="img/select.png">
+			<div class="list">
+				<a href="#" onclick=Units_Change("1")>Metric</a>
+				<a href="#" onclick=Units_Change("2")>Inperial</a>
+			</div>
+		</div>
+
+		<div class="select2" id="select2">
+			<a href="#" class="ef" id="select_timezone">Asia/Tokyo</a>
+			<div class="under_line"></div>
+			<label class="label1">Time Zone</label>
+			<label class="label2">Choose your closest timezone</label>
+			<img class="select" src="img/select.png">
+			<div class="list" id="list"></div>
+		</div>
+
+		<a href="#" class="save" id="save">Save</a>
+	</div>
+
+
+	<div class="tutorial">
+		<a href="https://iptsusho.com/publics/index/62/" id="exit_url" class="exit_url">商品ページへ戻る</a>
+		<div class="balloon">
+			<a id="balloon_text" class="balloon_text">こちらはeYeGrowの設定画面です。各種設定を変更できます。私をクリックするとページのご説明をいたします</a>
+		</div>
+		<img class="ipkun" src="img/ipkun1.png" onclick=Tutorial_Next()>
+		<input type=text class="tutorial_flag" id="tutorial_flag" value="0">
+			
+	</div>
+	<div class="blind_clea" id="blind_clea"></div>
+	<div class="blind_black" id="blind_black"></div>
+
+
+
+	<div id="line" class="line">
+		<img id="rogo" class="rogo" src="img/fancom.png">
+		<a id="comment" class="comment">© Powered by Farm.Vision</a>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+	<script>
+	document.write('<script src="menu_javaf.js?' + new Date().getTime() + '"><\/script>');
+  	document.write('<script src="settings_javaf.js?' + new Date().getTime() + '"><\/script>');
+	document.write('<script src="tutorial_settings_javaf.js?' + new Date().getTime() + '"><\/script>');
+	</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" charset="utf-8">
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta name="robots" content="noindex" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="menu_cssf.css">
+<link rel="stylesheet" href="footer_cssf.css">
+<link rel="stylesheet" href="data_cssf.css">
+<link rel="stylesheet" href="tutorial_cssf.css">
+<title>eYeGrowデモページ Data</title>
+</head>
+
+<body style="margin:0px;">
+
+	<div class="background-top" id="background-top">
+		<img class="eYeGrow" src="img/eYeGrow.png">
+		<div class="right_menu">
+			<a href="eYeGrow_settings.html">Name: eYeGrow Demo</a>
+			<a href="eYeGrow_status.html" class="switch_link">Status: OK</a>
+			<a href="#" class="switch_link">Login</a>
+		</div>
+		<div class="left_menu">
+			<a href="eYeGrow_main.html" class="switch_link">Home</a>
+			<a href="eYeGrow_status.html" class="switch_link">Status</a>
+			<a href="eYeGrow_settings.html" class="switch_link">Settings</a>
+		</div>
+	</div>
+
+	<img class="hanger" src="img/hanger.png" onclick="Menu_Open();">
+	<div class="blind_menu" id="blind_menu" onclick="Menu_Close();"></div>
+	<div class="side_menu" id="side_menu">
+		<div class="side_top">
+			<div class="text_menu">Menu</div>
+		</div>
+		<a href="eYeGrow_main.html" class="side_link">Home</a>
+		<a href="eYeGrow_status.html" class="side_link">Status</a>
+		<a href="eYeGrow_settings.html" class="side_link">Settings</a>
+	</div>
+
+
+	<div class="windows">
+		<div class="interface">
+		<div class="date" id="date1">
+			<input class="ef" type="date" id="start_date">
+			<div class="under_line"></div>
+			<label>Start date</label>
+		</div>
+
+		<div class="date" id="date2">
+			<input class="ef" type="date" id="end_date">
+			<div class="under_line"></div>
+			<label>End date</label>
+		</div>
+
+		<div class="graph_type" id="type">
+			<a href="#" class="ef" id="graph_type"></a>
+			<div class="under_line"></div>
+			<label>Graph type</label>
+			<img class="select" src="img/select.png">
+			<div class="list">
+			<a href="#" class="type1" onclick=Type_Change("1")>Weight</a>
+			<a href="#" class="type2" onclick=Type_Change("2")>Growth</a>
+			<a href="#" class="type3" onclick=Type_Change("3")>Reading Count</a>
+			<a href="#" class="type4" onclick=Type_Change("4")>Uniformity</a>
+			<a href="#" class="type5" onclick=Type_Change("5")>Standard Deviation</a>
+			</div>
+		</div>
+
+		<div class="graph_button">
+			<a href="#" id="Update"	class="Update" onclick=Draw_Chart()>Update</a>
+			<a href="#" id="Download" class="Download" onclick=Download_Text()>Download</a>
+		</div>
+		</div>
+
+	<div id="chart" class="chart"></div>
+
+	</div>
+
+	<div class="table_window" id="table_window">
+	<table class="table1" id="table1">
+        <tr>
+		<th class="word_break">Date</th>
+		<th class="word_break">Weight</th>
+		<th class="word_break">Growth</th>
+		<th class="word_break">Reading Count</th>
+		<th class="word_break">Uniformity</th>
+		<th class="word_break">Standard Deviation</th>
+        </tr>
+    	</table>
+	</div>
+
+
+	<div class="tutorial">
+		<a href="https://iptsusho.com/publics/index/62/" id="exit_url" class="exit_url">商品ページへ戻る</a>
+		<div class="balloon">
+			<a id="balloon_text" class="balloon_text">このページはデータをグラフ化したページです。私をクリックするとページのご説明をいたします</a>
+		</div>
+		<img class="ipkun" src="img/ipkun1.png" onclick="Tutorial_Next();">
+		<input type=text class="tutorial_flag" id="tutorial_flag" value="0">
+			
+	</div>
+	<div class="blind_clea" id="blind_clea"></div>
+	<div class="blind_black" id="blind_black"></div>
+
+
+
+	<div id="line" class="line">
+		<img id="rogo" class="rogo" src="img/fancom.png">
+		<a id="comment" class="comment">© Powered by Farm.Vision</a>
+	</div>
+
+
+
+
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+	<script>
+	document.write('<script src="menu_javaf.js?' + new Date().getTime() + '"><\/script>');
+	document.write('<script src="data_javaf.js?' + new Date().getTime() + '"><\/script>');
+	document.write('<script src="tutorial_data_javaf.js?' + new Date().getTime() + '"><\/script>');
+	</script>
+
+</body>
+</html>
