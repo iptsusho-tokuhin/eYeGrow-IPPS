@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" charset="utf-8">
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta name="robots" content="noindex" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="menu_cssf.css">
+<link rel="stylesheet" href="footer_cssf.css">
+<link rel="stylesheet" href="main_cssf.css">
+<link rel="stylesheet" href="tutorial_cssf.css">
+<title>eYeGrowデモページ Main</title>
+</head>
+
+<body style="margin:0px;">
+
+	<div class="background-top" id="background-top">
+		<img class="eYeGrow" src="img/eYeGrow.png">
+		<div class="right_menu">
+			<a href="eYeGrow_settings.html">Name: eYeGrow Demo</a>
+			<a href="eYeGrow_status.html" class="switch_link">Status: OK</a>
+			<a href="#" class="switch_link">Login</a>
+		</div>
+		<div class="left_menu">
+			<a href="eYeGrow_main.html" class="switch_link">Home</a>
+			<a href="eYeGrow_status.html" class="switch_link">Status</a>
+			<a href="eYeGrow_settings.html" class="switch_link">Settings</a>
+		</div>
+	</div>
+
+	<img class="hanger" src="img/hanger.png" onclick="Menu_Open();">
+	<div class="blind_menu" id="blind_menu" onclick="Menu_Close();"></div>
+	<div class="side_menu" id="side_menu">
+		<div class="side_top">
+			<div class="text_menu">Menu</div>
+		</div>
+		<a href="eYeGrow_main.html" class="side_link">Home</a>
+		<a href="eYeGrow_status.html" class="side_link">Status</a>
+		<a href="eYeGrow_settings.html" class="side_link">Settings</a>
+	</div>
+
+
+	<div class="windows">
+	<div class="window">
+	<div class="menu" id="weight">
+		<a href="eYeGrow_data.html?f=1"><img class="clear" src="img/clear.png"></a>
+		<img class="icon" src="img/weight.png">
+		<a href="eYeGrow_data.html?f=1" class="data">80.5 KG</a>
+		<a class="title">Weight</a>
+	</div>
+	</div>
+
+	<div class="window">
+	<div class="menu" id="growth">
+		<a href="eYeGrow_data.html?f=2"><img class="clear" src="img/clear.png"></a>
+		<img class="icon" src="img/growth.png">
+		<a href="eYeGrow_data.html?f=2" class="data">355 grams</a>
+		<a class="title">Growth</a>
+	</div>
+	</div>
+
+	<div class="window">
+	<div class="menu" id="reading_count">
+		<a href="eYeGrow_data.html?f=3"><img class="clear" src="img/clear.png"></a>
+		<img class="icon" src="img/count.png">
+		<a href="eYeGrow_data.html?f=3" class="data">105</a>
+		<a class="title">Reading Count</a>
+	</div>
+	</div>
+
+	<div class="window">
+	<div class="menu" id="uniformity">
+		<a href="eYeGrow_data.html?f=4"><img class="clear" src="img/clear.png"></a>
+		<img class="icon" src="img/deviation.png">
+		<a href="eYeGrow_data.html?f=4" class="data">78 %</a>
+		<a class="title">Uniformity</a>
+	</div>
+	</div>
+
+	<div class="window">
+	<div class="menu" id="standard_deviation">
+		<a href="eYeGrow_data.html?f=5"><img class="clear" src="img/clear.png"></a>
+		<img class="icon" src="img/deviation.png">
+		<a href="eYeGrow_data.html?f=5" class="data">3.3 KG</a>
+		<a class="title">Standard Deviation</a>
+	</div>
+	</div>
+
+	<div class="window">
+	<div class="menu" id="sensor_status">
+		<a href="eYeGrow_status.html"><img class="clear" src="img/clear.png"></a>
+		<img class="icon" src="img/check.png">
+		<a href="eYeGrow_status.html" class="data">OK</a>
+		<a class="title">Sensor Status</a>
+	</div>
+	</div>
+	</div>
+
+
+
+	<div class="tutorial">
+		<a href="https://iptsusho.com/publics/index/62/" class="exit_url">商品ページへ戻る</a>
+		<div class="balloon">
+			<a id="balloon_text">アイピー通商のあいぴぃと申します。私をクリックするとページのご説明をいたします</a>
+		</div>
+		<img class="ipkun" src="img/ipkun1.png" onclick="Tutorial_Next();">
+		<input type=text class="tutorial_flag" id="tutorial_flag" value="0">
+			
+	</div>
+	<div class="blind_clea" id="blind_clea"></div>
+	<div class="blind_black" id="blind_black"></div>
+
+
+
+
+
+
+
+
+	<div class="line">
+		<img class="rogo" src="img/fancom.png">
+		<a class="comment">© Powered by Farm.Vision</a>
+	</div>
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+	<script>
+	document.write('<script src="initial_javaf.js?' + new Date().getTime() + '"><\/script>');
+	document.write('<script src="menu_javaf.js?' + new Date().getTime() + '"><\/script>');
+	document.write('<script src="tutorial_main_javaf.js?' + new Date().getTime() + '"><\/script>');
+	</script>
+
+</body>
+</html>
