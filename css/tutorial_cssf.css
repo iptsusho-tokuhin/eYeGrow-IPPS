@@ -13,7 +13,7 @@
 .balloon{
 	position: absolute;
 	display:inline-block;
-	right: 0px;
+	right: 150px;
 	top: 110px;
 	width: 270px;
 	height: 70px;
@@ -110,7 +110,7 @@
 }
 
 .balloon{
-	left: -210px;
+	right: 0px;
 	top: 170px;
 }
 
