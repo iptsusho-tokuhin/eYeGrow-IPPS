@@ -13,7 +13,7 @@
 .balloon{
 	position: absolute;
 	display:inline-block;
-	left: -300px;
+	right: 0px;
 	top: 110px;
 	width: 270px;
 	height: 70px;
@@ -131,7 +131,7 @@
 }
 
 .exit_url {
-	bottom: 30px;
+	bottom: 10px;
 	left: 20px;
 	width: 20px;
 	height: 120px;
