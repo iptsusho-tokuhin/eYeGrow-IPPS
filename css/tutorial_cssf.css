@@ -66,12 +66,14 @@
 .exit_url {
 	position: absolute;
 	display:block;
-	bottom: 50px;
+	bottom: 170px;
 	right: 25px;
 	width: 120px;
 	padding: 4px 6px;
 	border: 2px solid #00bfff;
 	border-radius: 8px;
+	font-size: 14px;
+	font-family : 'sans-serif';
 	text-align: center;
 	color: black;
 	background-color: #afeeee;
