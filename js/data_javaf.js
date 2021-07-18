@@ -213,7 +213,7 @@ function Download_Text()
 			if(j == 0 && i != 0)
 			{
 				Y = New_Data[i][j].getFullYear();
-				M = New_Data[i][j].getMonth();
+				M = New_Data[i][j].getMonth() + 1;
 				D = New_Data[i][j].getDate();
 				text = text + Y +"/"+ M +"/"+ D + ",";
 			}
