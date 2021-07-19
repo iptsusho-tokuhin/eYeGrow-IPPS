@@ -111,12 +111,12 @@
 
 @media screen and (max-width:599px) {
 .ipkun {
-	width: 90px;
+	width: 50px;
 	bottom: 170px;
 }
 
 .balloon{
-	right: 20px;
+	right: 10px;
 	bottom: 20px;
 }
 
