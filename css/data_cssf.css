@@ -235,6 +235,6 @@ label {
 }
 
 @media screen and (max-width:410px) {
-.table1 th {padding: 18px 0px 18px 5px;}
-.table1 td {padding: 18px 0px 18px 5px;}
+.table1 th {padding: 18px 0px 18px 10px;}
+.table1 td {padding: 18px 0px 18px 10px;}
 }
