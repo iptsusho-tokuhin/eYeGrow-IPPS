@@ -139,7 +139,7 @@
 }
 }
 
-@media screen and (max-width:599px) {
+@media screen and (max-width:390px) {
 .balloon{
 	width: 70%;
 }
