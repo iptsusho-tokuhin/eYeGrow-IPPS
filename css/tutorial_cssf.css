@@ -137,12 +137,13 @@
 	height: 120px;
 	writing-mode: vertical-rl;
 }
-
-
-
 }
 
-
+@media screen and (max-width:599px) {
+.balloon{
+	width: 70%;
+}
+}
 
 
 
