@@ -5,7 +5,7 @@
 	z-index: 50;
 }
 
-.tutorial a {
+.exit_url {
 	font-size: 14px;
 	font-family : 'sans-serif';
 }
@@ -14,11 +14,13 @@
 	position: absolute;
 	display:inline-block;
 	right: 100px;
-	top: 110px;
+	bottom: 50px;
 	width: 270px;
 	height: 70px;
 	border-radius: 15px;
 	padding: 10px;
+	font-size: 14px;
+	font-family : 'sans-serif';
 	background: #fde7d1;
 	border: 3px solid #ef8f3a;
 	z-index: 60;
