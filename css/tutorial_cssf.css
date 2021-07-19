@@ -9,6 +9,7 @@
 	position:fixed;
 	font-size: 14px;
 	font-family : 'sans-serif';
+	z-index: 60;
 }
 
 .ipkun {
@@ -19,6 +20,7 @@
 	right: 50px;
 	bottom: 50px;
 	cursor: pointer;
+	z-index: 60;
 }
 
 .balloon{
