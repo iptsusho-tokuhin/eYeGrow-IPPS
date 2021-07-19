@@ -233,3 +233,8 @@ label {
 .Update {font-family: 'Roboto'; font-size: 15px;}
 .Download {font-family: 'Roboto'; font-size: 15px;}
 }
+
+@media screen and (max-width:410px) {
+.table1 th {padding: 18px 0px 18px 5px;}
+.table1 td {padding: 18px 0px 18px 5px;}
+}
