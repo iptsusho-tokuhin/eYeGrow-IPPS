@@ -10,6 +10,16 @@
 	font-family : 'sans-serif';
 }
 
+.ipkun {
+	position: relative;
+	display:inline-block;
+	width: 120px;
+	height: auto;
+	right: 50px;
+	bottom: 50px;
+	cursor: pointer;
+}
+
 .balloon{
 	position: absolute;
 	display:inline-block;
@@ -50,14 +60,6 @@
 	border-color: transparent transparent transparent #ef8f3a;
 	border-width: 0px 0px 40px 20px;
 	z-index: 59;
-}
-
-.ipkun {
-	position: relative;
-	display:inline-block;
-	width: 120px;
-	height: auto;
-	cursor: pointer;
 }
 
 .tutorial_flag {
