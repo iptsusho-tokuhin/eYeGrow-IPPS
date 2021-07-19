@@ -110,17 +110,13 @@
 }
 
 @media screen and (max-width:599px) {
-.tutorial {
-	bottom: 120px;
-}
-
 .ipkun {
 	width: 90px;
 	bottom: 170px;
 }
 
 .balloon{
-	right: 0px;
+	right: 20px;
 	bottom: 20px;
 }
 
