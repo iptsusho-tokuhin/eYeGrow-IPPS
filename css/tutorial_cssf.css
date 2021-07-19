@@ -6,12 +6,13 @@
 }
 
 .exit_url {
+	position:fixed;
 	font-size: 14px;
 	font-family : 'sans-serif';
 }
 
 .ipkun {
-	position: relative;
+	position:fixed;
 	display:inline-block;
 	width: 120px;
 	height: auto;
@@ -21,7 +22,7 @@
 }
 
 .balloon{
-	position: absolute;
+	position:fixed;
 	display:inline-block;
 	right: 200px;
 	bottom: 50px;
