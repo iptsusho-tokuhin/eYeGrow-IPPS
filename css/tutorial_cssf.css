@@ -117,7 +117,7 @@
 
 .balloon{
 	right: 10px;
-	bottom: 20px;
+	bottom: 10px;
 }
 
 .balloon:before {
