@@ -40,7 +40,7 @@ function Tutorial_Next()
 function Tutorial_Text(num)
 {
 	var Text = new Array();
-	Text[0] = "このページの詳細についてご説明いたします";
+	Text[0] = "それではこのページの詳細についてご説明いたします。説明中の箇所を明るくしますのでご覧ください";
 	Text[1] = "Start dateはグラフの描画開始日です。お望みの日付に変更できます";
 	Text[2] = "End dateはグラフの最終日です。お望みの日付に変更できます";
 	Text[3] = "Graph typeでどのデータをグラフ化するか選択できます";
