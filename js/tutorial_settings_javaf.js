@@ -37,7 +37,7 @@ function Tutorial_Next()
 function Tutorial_Text(num)
 {
 	var Text = new Array();
-	Text[0] = "このページの詳細についてご説明いたします";
+	Text[0] = "それではこのページの詳細についてご説明いたします。説明中の箇所を明るくしますのでご覧ください";
 	Text[1] = "Sensor NameでeYeGrowに個別の名前を付けることができます。今は名前を「eYeGrow Demo」としています";
 	Text[2] = "Unitsでは単位系を変更できます。メートル法とヤード。ポンド法が選択できます";
 	Text[3] = "Time Zoneではタイムゾーンを選択できます。今は日本時間に設定しています。";
