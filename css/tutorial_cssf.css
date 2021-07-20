@@ -41,16 +41,6 @@
 	z-index: 60;
 }
 
-.notes {
-	position:fixed;
-	color: #ff0000
-	bottom: 10px;
-	right: 25px;
-	font-size: 13px;
-	font-family : 'sans-serif';
-	z-index: 60;
-}
-
 .balloon:before {
 	content: "";
 	position: absolute;
@@ -75,6 +65,16 @@
 	border-color: transparent transparent transparent #ef8f3a;
 	border-width: 0px 0px 40px 20px;
 	z-index: 59;
+}
+
+.notes {
+	position:fixed;
+	color: #ff0000;
+	bottom: 10px;
+	right: 25px;
+	font-size: 13px;
+	font-family : 'sans-serif';
+	z-index: 60;
 }
 
 .tutorial_flag {
