@@ -36,7 +36,7 @@ function Tutorial_Next()
 function Tutorial_Text(num)
 {
 	var Text = new Array();
-	Text[0] = "このページの詳細についてご説明いたします";
+	Text[0] = "それではこのページの詳細についてご説明いたします。説明中の箇所を明るくしますのでご覧ください";
 	Text[1] = "Restartは再起動ボタンです。eYeGrowのアップデートを反映させる際に再起動を行います";
 	Text[2] = "この表でeYeGrowのバージョンやMACアドレス、また接続IPアドレスを確認できます";
 	Text[3] = "この写真はつい先ほどeYeGrowが撮影した3D写真です。色の違いが地面からの高さを表しています。";
