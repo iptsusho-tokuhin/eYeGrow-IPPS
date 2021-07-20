@@ -485,7 +485,7 @@ All_Data = [
 		date = All_Data[i][0];
 		Y = date.getFullYear();
 		M = date.getMonth();
-		D = date.getDate() + slide_date;
+		D = date.getDate() + slide_date - 1;
 
 		New_Data.push([new Date(Y,M,D), All_Data[i][1], All_Data[i][2], All_Data[i][3], All_Data[i][4], All_Data[i][5]]);
 	}
