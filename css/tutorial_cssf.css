@@ -31,8 +31,33 @@
 	right: 100px;
 	width: 50px;
 	height: auto;
+	animation: fluffy1 3s ease infinite;
 	z-index: 60;
 }
+
+@keyframes fluffy1 {
+  0% { transform:translateY(0) }
+  5% { transform:translateY(0) }
+  10% { transform:translateY(0) }
+  20% { transform:translateY(-15px) }
+  25% { transform:translateY(0) }
+  30% { transform:translateY(-15px) }
+  50% { transform:translateY(0) }
+  100% { transform:translateY(0) }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .balloon {
 	position:fixed;
