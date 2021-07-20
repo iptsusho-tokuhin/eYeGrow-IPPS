@@ -122,12 +122,12 @@
 @media screen and (max-width:599px) {
 .ipkun {
 	width: 90px;
-	bottom: 130px;
+	bottom: 145px;
 }
 
 .balloon{
 	right: 10px;
-	bottom: 10px;
+	bottom: 25px;
 }
 
 .balloon:before {
@@ -147,6 +147,10 @@
 	border-color: transparent transparent #ef8f3a transparent;
 }
 
+.notes {
+	bottom: 10px;
+}
+	
 .exit_url {
 	bottom: 10px;
 	left: 20px;
