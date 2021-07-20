@@ -40,7 +40,7 @@ function Tutorial_Next()
 function Tutorial_Text(num)
 {
 	var Text = new Array();
-	Text[0] = "このページの詳細についてご説明いたします";
+	Text[0] = "それではこのページの詳細についてご説明いたします。説明中の箇所を明るくしますのでご覧ください";
 	Text[1] = "メニューバーです Home Status Settingへ移動できます。スマホでご覧の方は三本線タップでメニューが出ます";
 	Text[2] = "Weightは前日に撮影したデータをもとに計算した群の平均体重です";
 	Text[3] = "Growthは前日に群の体重がどれほど増えたかを表しています";
