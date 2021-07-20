@@ -25,6 +25,12 @@
 	z-index: 60;
 }
 
+.click {
+	position:fixed;
+	bottom: 200px;
+	right: 100px;
+}
+
 .balloon {
 	position:fixed;
 	display:inline-block;
