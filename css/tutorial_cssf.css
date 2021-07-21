@@ -43,10 +43,10 @@
 	position:fixed;
 	right: 300px;
 	bottom: 30px;
-	width: 200px;
-	height: 50px;
-	border-top: 8px solid #5bc0de;
-	border-right: 8px solid #5bc0de;
+	width: 0px;
+	height: 100px;
+	border-right: 4px solid #5bc0de;
+	border-left: 4px solid #5bc0de;
 	box-sizing: border-box;
 	z-index: 60;
 }
@@ -54,9 +54,9 @@
 .arrow::after{
 	content: "";
 	position: absolute;
-	bottom: -14px;
-	right: -17px;
-	border-top: 14px solid #5bc0de;
+	top: -14px;
+	right: 7px;
+	border-bottom: 14px solid #5bc0de;
 	border-left: 14px solid transparent;
 	border-right: 14px solid transparent;
 }
