@@ -41,6 +41,8 @@
 
 .arrow{
 	position:fixed;
+	right: 300px;
+	bottom: 30px;
 	width: 200px;
 	height: 50px;
 	border-top: 8px solid #5bc0de;
