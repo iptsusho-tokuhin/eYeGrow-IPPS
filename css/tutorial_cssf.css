@@ -55,7 +55,7 @@
 	content: "";
 	position: absolute;
 	top: -14px;
-	right: 0px;
+	left: 14px;
 	border-bottom: 14px solid #5bc0de;
 	border-left: 14px solid transparent;
 	border-right: 14px solid transparent;
