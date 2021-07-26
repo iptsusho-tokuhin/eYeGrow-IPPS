@@ -6,7 +6,7 @@ Element[3] = document.getElementById("save");
 
 var ipkun = document.getElementById("ipkun");
 
-var Z = [1,2,3,4];
+var Z = [1,3,4,2];
 
 var Blind_Black = document.getElementById("blind_black");
 var Blind_Clea = document.getElementById("blind_clea");
