@@ -4,7 +4,9 @@ Element[1] = document.getElementById("select1");
 Element[2] = document.getElementById("select2");
 Element[3] = document.getElementById("save");
 
-var Z = [4,3,2,1];
+var ipkun = document.getElementById("ipkun");
+
+var Z = [1,2,7,4,5,6,2];
 
 var Blind_Black = document.getElementById("blind_black");
 var Blind_Clea = document.getElementById("blind_clea");
@@ -15,6 +17,7 @@ function Tutorial_Next()
 
 	Tutorial_Initial();
 	Tutorial_Text(flag);
+	ipkun.src = "img/ipkun2.png";
 
 	switch (flag){
   	case 0:
