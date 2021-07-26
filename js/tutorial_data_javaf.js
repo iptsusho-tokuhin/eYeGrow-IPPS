@@ -7,6 +7,8 @@ Element[4] = document.getElementById("Download");
 Element[5] = document.getElementById("chart");
 Element[6] = document.getElementById("table_window");
 
+var ipkun = document.getElementById("ipkun");
+
 var Z = [1,2,7,4,5,6,2];
 
 var Blind_Black = document.getElementById("blind_black");
@@ -18,7 +20,8 @@ function Tutorial_Next()
 
 	Tutorial_Initial();
 	Tutorial_Text(flag);
-
+	elem.src = "img/ipkun2.jpg";
+	
 	switch (flag){
   	case 0:
     		break;
@@ -76,6 +79,7 @@ function Tutorial_End()
 {
  	Tutorial_Initial()
 
+	elem.src = "img/ipkun1.jpg";
 	Blind_Black.style.background = "rgba(0, 0, 0, 0)";
 	Blind_Black.style.zIndex = -100;
 	Blind_Clea.style.zIndex = -100;
