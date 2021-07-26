@@ -7,7 +7,9 @@ Element[4] = document.getElementById("uniformity");
 Element[5] = document.getElementById("standard_deviation");
 Element[6] = document.getElementById("sensor_status");
 
-var Z = [1,2,3,4,5,6,7];
+var ipkun = document.getElementById("ipkun");
+
+var Z = [1,2,7,4,5,6,2];
 
 var Blind_Black = document.getElementById("blind_black");
 var Blind_Clea = document.getElementById("blind_clea");
@@ -18,6 +20,7 @@ function Tutorial_Next()
 
 	Tutorial_Initial();
 	Tutorial_Text(flag);
+	ipkun.src = "img/ipkun2.png";
 
 	switch (flag){
   	case 0:
@@ -75,7 +78,8 @@ function Tutorial_Initial()
 function Tutorial_End()
 {
  	Tutorial_Initial()
-
+	
+	ipkun.src = "img/ipkun2.png";
 	Blind_Black.style.background = "rgba(0, 0, 0, 0)";
 	Blind_Black.style.zIndex = -100;
 	Blind_Clea.style.zIndex = -100;
