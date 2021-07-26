@@ -9,7 +9,7 @@ Element[6] = document.getElementById("sensor_status");
 
 var ipkun = document.getElementById("ipkun");
 
-var Z = [1,2,7,4,5,6,2];
+var Z = [1,2,3,4,5,6,7];
 
 var Blind_Black = document.getElementById("blind_black");
 var Blind_Clea = document.getElementById("blind_clea");
