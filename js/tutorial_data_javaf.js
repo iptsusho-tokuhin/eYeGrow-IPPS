@@ -20,7 +20,7 @@ function Tutorial_Next()
 
 	Tutorial_Initial();
 	Tutorial_Text(flag);
-	elem.src = "img/ipkun2.jpg";
+	ipkun.src = "img/ipkun2.jpg";
 	
 	switch (flag){
   	case 0:
@@ -79,7 +79,7 @@ function Tutorial_End()
 {
  	Tutorial_Initial()
 
-	elem.src = "img/ipkun1.jpg";
+	ipkun.src = "img/ipkun1.jpg";
 	Blind_Black.style.background = "rgba(0, 0, 0, 0)";
 	Blind_Black.style.zIndex = -100;
 	Blind_Clea.style.zIndex = -100;
