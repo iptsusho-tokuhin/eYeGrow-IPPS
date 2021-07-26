@@ -78,7 +78,8 @@ function Tutorial_Initial()
 function Tutorial_End()
 {
  	Tutorial_Initial()
-	
+
+	ipkun.src = "img/ipkun1.png";
 	ipkun.src = "img/ipkun2.png";
 	Blind_Black.style.background = "rgba(0, 0, 0, 0)";
 	Blind_Black.style.zIndex = -100;
