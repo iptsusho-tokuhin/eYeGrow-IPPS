@@ -4,6 +4,7 @@ Element[1] = document.getElementById("table1");
 Element[2] = document.getElementById("photo");
 
 var ipkun = document.getElementById("ipkun");
+var click = document.getElementById("click");
 
 var Z = [1,2,3];
 
@@ -17,6 +18,7 @@ function Tutorial_Next()
 	Tutorial_Initial();
 	Tutorial_Text(flag);
 	ipkun.src = "img/ipkun2.png";
+	click.style.visibility ="hidden";
 
 	switch (flag){
   	case 0:
@@ -72,6 +74,7 @@ function Tutorial_End()
  	Tutorial_Initial()
 
 	ipkun.src = "img/ipkun1.png";
+	click.style.visibility = "visible";
 	Blind_Black.style.background = "rgba(0, 0, 0, 0)";
 	Blind_Black.style.zIndex = -100;
 	Blind_Clea.style.zIndex = -100;
