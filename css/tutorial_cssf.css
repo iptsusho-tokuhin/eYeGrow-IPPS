@@ -22,7 +22,7 @@
 	position:fixed;
 	bottom: 210px;
 	right: 110px;
-	width: 20px;
+	width: 30px;
 	height: auto;
 	animation: fluffy1 3s ease infinite;
 	z-index: 60;
@@ -32,10 +32,10 @@
   0% { transform:translate(0,0) }
   5% { transform:translate(0,0) }
   10% { transform:translate(0,0) }
-  20% { transform:translate(10px,10px)}
+  20% { transform:translate(30px,40px)}
   25% { transform:translate(0,0) }
   30% { transform:translate(0,0) }
-  50% { transform:translate(0,0) }
+  50% { transform:translate(0,0); width: 25px;}
   100% { transform:translate(0,0) }
 }
 
