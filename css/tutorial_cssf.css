@@ -30,16 +30,15 @@
 
 @keyframes fluffy1 {
 	0% { transform:translate(0,0) }
-  	5% { transform:translate(0,0) }
   	10% { transform:translate(0,0) }
   	20% { transform:translate(30px,40px)}
-  	25% { transform:translate(30px,40px) }
- 	30% { transform:translate(30px,40px) }
-	50% { transform:translate(30px,40px); width: 20px;}
+  	25% { transform:translate(30px,40px)}
+ 	30% { transform:translate(30px,40px)}
+	50% { transform:translate(30px,40px)}
 	60% { transform:translate(30px,40px); width: 20px;}
-	70% { transform:translate(30px,40px); width: 30px;}
+	70% { transform:translate(30px,40px); width: 20px;}
 	80% { transform:translate(30px,40px); width: 30px;}
-	90% { transform:translate(30px,40px); width: 20px;}
+	90% { transform:translate(30px,40px); width: 30px;}
 	100% { transform:translate(0,0) }
 }
 
