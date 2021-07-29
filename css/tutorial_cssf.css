@@ -30,10 +30,10 @@
 
 @keyframes fluffy1 {
 	0% { transform:translate(0,0)}
-	10% { transform:translate(30px,40px)}
-	50% { transform:translate(30px,40px); width: 30px;}
-	60% { transform:translate(25px,30px); width: 20px;}
-	70% { transform:translate(30px,40px); width: 30px;}
+	10% { transform:translate(40px,60px)}
+	50% { transform:translate(40px,60px); width: 30px;}
+	60% { transform:translate(35px,50px); width: 20px;}
+	70% { transform:translate(40px,60px); width: 30px;}
 	100% { transform:translate(0,0)}
 }
 
