@@ -35,7 +35,7 @@
   	25% { transform:translate(30px,40px)}
  	30% { transform:translate(30px,40px)}
 	50% { transform:translate(30px,40px)}
-	60% { transform:translate(30px,40px); width: 20px;}
+	60% { transform:translate(25px,30px); width: 20px;}
 	70% { transform:translate(30px,40px); width: 30px;}
 	80% { transform:translate(30px,40px); width: 30px;}
 	90% { transform:translate(30px,40px); width: 30px;}
