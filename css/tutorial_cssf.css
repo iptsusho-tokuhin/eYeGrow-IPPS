@@ -5,6 +5,7 @@
 	font-size: 14px;
 	font-family : 'sans-serif';
 	z-index: 60;
+	display:none;
 }
 
 .ipkun {
@@ -16,6 +17,7 @@
 	bottom: 50px;
 	cursor: pointer;
 	z-index: 60;
+	display:none;
 }
 
 .click {
@@ -26,6 +28,7 @@
 	height: auto;
 	animation: fluffy1 3s ease infinite;
 	z-index: 60;
+	display:none;
 }
 
 @keyframes fluffy1 {
@@ -51,6 +54,7 @@
 	background: #fde7d1;
 	border: 3px solid #ef8f3a;
 	z-index: 60;
+	display:none;
 }
 
 .balloon:before {
@@ -64,6 +68,7 @@
 	border-color: transparent transparent transparent #fde7d1;
 	border-width: 0px 0px 40px 20px;
 	z-index: 61;
+	display:none;
 }
 
 .balloon:after {
@@ -77,6 +82,7 @@
 	border-color: transparent transparent transparent #ef8f3a;
 	border-width: 0px 0px 40px 20px;
 	z-index: 59;
+	display:none;
 }
 
 .notes {
@@ -87,11 +93,13 @@
 	font-size: 13px;
 	font-family : 'sans-serif';
 	z-index: 60;
+	display:none;
 }
 
 .tutorial_flag {
 	position: absolute;
 	visibility: hidden;
+	display:none;
 }
 
 .exit_url {
@@ -110,6 +118,7 @@
 	background-color: #afeeee;
 	text-decoration:none;
 	z-index: 61;
+	display:none;
 }
 
 .blind_clea {
@@ -119,6 +128,7 @@
 	width: 100%;
 	height: 100%;
 	z-index: -100;
+	display:none;
 }
 
 .blind_black {
@@ -129,12 +139,14 @@
 	height: 100%;
 	transition: 0.5s;
 	z-index: -100;
+	display:none;
 }
 
 @media screen and (max-width:599px) {
 .ipkun {
 	width: 90px;
 	bottom: 150px;
+	display:none;
 }
 	
 .click {
@@ -142,6 +154,7 @@
 	right: 80px;
 	width: 30px;
 	height: auto;
+	display:none;
 }
 
 @keyframes fluffy1 {
@@ -158,6 +171,7 @@
 .balloon{
 	right: 10px;
 	bottom: 30px;
+	display:none;
 }
 
 .balloon:before {
@@ -179,6 +193,7 @@
 
 .notes {
 	bottom: 10px;
+	display:none;
 }
 	
 .exit_url {
@@ -187,6 +202,7 @@
 	width: 20px;
 	height: 120px;
 	writing-mode: vertical-rl;
+	display:none;
 }	
 }
 
